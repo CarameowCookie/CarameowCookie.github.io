@@ -1,6 +1,8 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "title":"CarameowCookie 的碎碎念",
+    "subTitle":"一个自由而无用的灵魂",
+    "avatarUrl":"https://github.com/CarameowCookie.png",
+    "GMEEK_VERSION":"last",
+    "dayTheme":"light",
+    "nightTheme":"dark_high_contrast"
 }
