@@ -3,6 +3,7 @@
     "subTitle":"一个自由而无用的灵魂",
     "avatarUrl":"https://github.com/CarameowCookie.png",
     "GMEEK_VERSION":"last",
+    "singlePage":["link"],
     "dayTheme":"light",
     "nightTheme":"dark_high_contrast"
 }
