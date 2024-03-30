@@ -6,5 +6,5 @@
     "singlePage":["link"],
     "dayTheme":"light",
     "nightTheme":"dark_high_contrast",
-    "style":"<style>@font-face{font-family:'MiSans'; src:url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/fonts/MiSans%20VF.ttf');} body{font-family:'MiSans',Sans-serif}</style>"
+    "style":"<style>@import url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/css/style.css')</style>"
 }
