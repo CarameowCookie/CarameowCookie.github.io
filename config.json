@@ -8,5 +8,5 @@
     "singlePage":["link"],
     "dayTheme":"light",
     "nightTheme":"dark_high_contrast",
-    "style":"/*<style>@import url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/css/style.css')</style>*/"
+    "style":"<!-- <style>@import url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/css/style.css')</style> -->"
 }
