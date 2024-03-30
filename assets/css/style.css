@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MiSans';
+    src: url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/fonts/MiSans VF.ttf');
+}
+
+body {
+    font-family: 'MiSans', sans-serif
+}
