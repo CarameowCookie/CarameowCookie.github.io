@@ -1,8 +1,10 @@
-@font-face {
-    font-family: 'MiSans';
-    src: url('https://github.com/CarameowCookie/CarameowCookie.github.io/blob/main/assets/fonts/MiSans VF.ttf')
-}
-
-body {
-    font-family: 'MiSans', sans-serif
-}
+<link
+  rel="stylesheet"
+  crossorigin="anonymous"
+  href="https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Medium.min.css"
+/>
+<link
+  rel="stylesheet"
+  crossorigin="anonymous"
+  href="https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Bold.min.css"
+/>
