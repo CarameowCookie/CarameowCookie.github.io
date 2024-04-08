@@ -9,8 +9,8 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="这是第一篇博客">
-<title>这是第一篇博客</title>
+<meta name="description" content="Emoji 样式测试">
+<title>Emoji 样式测试</title>
 
 
 </head>
@@ -41,7 +41,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">这是第一篇博客</h1>
+<h1 class="postTitle">Emoji 样式测试</h1>
 <div class="title-right">
     <a href="https://CarameowCookie.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -49,7 +49,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/CarameowCookie/CarameowCookie.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/CarameowCookie/CarameowCookie.github.io/issues/4" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -65,9 +65,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>本来想写样式测试的，结果发现自己低估了原版 <a href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"><strong>G</strong>itHub <strong>F</strong>lavored <strong>M</strong>arkdown</a> 的特性之丰富程度（之前我一直写的是 Typora 版的 GFM）。那我还是先随便写点什么吧。</p>
-<p>这个博客站点是用 <a href="https://github.com/Meekdai">Meekdai</a> 的 <a href="https://github.com/Meekdai/Gmeek">Gmeek</a> 生成的。我今天在网上偶然发现了这个项目，被它极致的开箱即用性吸引住了，于是立刻用它建了站。</p>
-<p>就先写这么多，以后继续慢慢研究（比如改 CSS 什么的）。</p></div>
+<div class="markdown-body" id="postBody"><p>随便复制了一些 Emoji 进行样式测试：</p>
+<p>🥺👑🐱🔥🍥🧊🎲🚀🌌🔮🎀🏳️‍🌈🏳️‍⚧️</p>
+<p>如果配置正确，所显示的 Emoji 的样式将为 <strong>Twemoji</strong> 的样式。</p>
+<p>在此也推荐一下这个开源项目：<a href="https://github.com/jdecked/twemoji">jdecked/twemoji: Emoji for everyone.</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
@@ -125,11 +126,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-cmButton=document.getElementById("cmButton");
-    span=document.createElement("span");
-    span.setAttribute("class","Counter");
-    span.innerHTML="6";
-    cmButton.appendChild(span);
+
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
