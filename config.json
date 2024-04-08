@@ -7,7 +7,7 @@
     "singlePage":["link"],
     "dayTheme":"light",
     "nightTheme":"dark_high_contrast",
-    "style":"<link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Medium.min.css' /> <link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Bold.min.css' /> <style>*{font-family: MiSans, sans-serif;}</style> <script src='https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js' crossorigin='anonymous'></script> <style>img.emoji {height:1em; width:1em; margin:0.05em 0.1em; /*vertical-align:-0.1em;*/}</style>",
+    "style":"<link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Medium.min.css' /> <link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Bold.min.css' /> <style>*{font-family: MiSans, sans-serif;}</style> <script src='https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js' crossorigin='anonymous'></script> <style>img.emoji {height:1em; width:1em; margin:0.05em 0.1em; /*vertical-align:-0.1em;*/ vertical-align: middle;}</style>",
     "script":"<script>twemoji.parse(document.body);</script>",
     "rssSplit":"$$$$$$$"
 }
