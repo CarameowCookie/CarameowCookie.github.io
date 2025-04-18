@@ -6,7 +6,7 @@
     "startSite"    : "03/28/2024",
     "singlePage"   : [ "about" ],
     "i18n"         : "CN",
-    "UTC"          : "Shanghai",
+    "UTC"          : "8",
     "nightTheme"   : "dark_high_contrast",
     "script"       : "<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "rssSplit"     : "$$$$$$$"
